@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.jws.WebService"/>
+    <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
+    <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+    <fullyQualifiedTypeName name="model.UserModel"/>
+    <fullyQualifiedTypeName name="model.AbstractModel"/>
+    <fullyQualifiedTypeName name="java.lang.Class"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.PreparableStatement"/>
+    <fullyQualifiedTypeName name="service.ICategoryService"/>
+    <fullyQualifiedTypeName name="dao.ICategoryDAO"/>
+    <fullyQualifiedTypeName name="dao.INewDAO"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="dao.GenericDAO"/>
+    <fullyQualifiedTypeName name="mapper.RowMapper"/>
+    <fullyQualifiedTypeName name="mapper.CategoryMapper"/>
+    <fullyQualifiedTypeName name="mapper.NewMapper"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="utils.HttpUtil"/>
+    <fullyQualifiedTypeName name="service.INewService"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.databind.ObjectMapper"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.Type"/>
+    <fullyQualifiedTypeName name="java.sql.Timestamp"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="model.NewsModle"/>
+    <fullyQualifiedTypeName name="javax.inject.Inject"/>
+    <fullyQualifiedTypeName name="javassist.bytecode.ConstantAttribute"/>
+    <fullyQualifiedTypeName name="constant.SystemConstant"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+    <fullyQualifiedTypeName name="org.apache.commons.beanutils.BeanUtils"/>
+    <fullyQualifiedTypeName name="utils.FormUtil"/>
+    <fullyQualifiedTypeName name="sort.Sorter"/>
+    <fullyQualifiedTypeName name="paging.Pageble"/>
+</qualifiedTypeNameHistroy>

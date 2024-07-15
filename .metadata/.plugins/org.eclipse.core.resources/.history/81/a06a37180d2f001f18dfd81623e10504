@@ -1,0 +1,11 @@
+
+#pagination-demoo{
+	background-color: blue;
+  
+  margin-top:600px;
+}
+#pagination-demoo li{
+	
+  display: inline-block;
+}
+

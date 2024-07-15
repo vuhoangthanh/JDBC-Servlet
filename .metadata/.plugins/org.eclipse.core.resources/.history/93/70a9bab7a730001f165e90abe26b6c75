@@ -1,0 +1,56 @@
+package controller.web;
+
+import java.io.IOException;
+
+import javax.inject.Inject;
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import modle.UserModle;
+import service.ICategoryService;
+import service.IUserService;
+import utils.FormUtil;
+
+
+@WebServlet (urlPatterns = {"/trang-chu","/dang-nhap"})
+public class HomeController extends HttpServlet{
+	
+	@Inject
+	private IUserService userService;
+	
+
+	private static final long serialVersionUID = 1L;
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		String action = request.getParameter("action");
+		if(action != null && action.equals("login")) {
+			RequestDispatcher rd = request.getRequestDispatcher("views/login.jsp");
+			rd.forward(request, response);
+		}else if(action != null && action.equals("logout")) {
+			RequestDispatcher rd = request.getRequestDispatcher("views/login.jsp");
+			rd.forward(request, response);
+		}else {
+			request.setAttribute("categories", categoryService.findAll());
+			RequestDispatcher rd = request.getRequestDispatcher("views/web/home.jsp");
+			rd.forward(request, response);
+		}
+	}
+	
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String action = request.getParameter("action");
+		if(action != null && action.equals("login")) {
+			UserModle modle = FormUtil.toModle(UserModle.class, request);
+			modle = userService.findByUserNameAndPasswordAndStatus(modle.getUserName(), modle.getPassword(), 1);
+			if(modle != null) {
+				if(modle.getRole().getCode().equals("USER")) {
+					
+				}
+			}
+		}
+	}
+}

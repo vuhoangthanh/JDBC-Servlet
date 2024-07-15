@@ -1,0 +1,8 @@
+127.0.0.1 - - [16/Jun/2024:15:03:31 +0700] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [16/Jun/2024:15:03:32 +0700] "GET /new-jdbc/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [16/Jun/2024:15:03:32 +0700] "GET /new-jdbc/trang-chu;jsessionid=D1322C5C540EB7ECBF7BDB86B3B13543 HTTP/1.1" 200 10225
+0:0:0:0:0:0:0:1 - - [16/Jun/2024:15:03:32 +0700] "GET /new-jdbc/template/web/css/styles.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [16/Jun/2024:15:03:32 +0700] "GET /new-jdbc/template/web/js/scripts.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [16/Jun/2024:15:10:19 +0700] "GET /new-jdbc/trang-chu;jsessionid=D1322C5C540EB7ECBF7BDB86B3B13543 HTTP/1.1" 200 10225
+0:0:0:0:0:0:0:1 - - [16/Jun/2024:15:10:19 +0700] "GET /new-jdbc/template/web/assets/favicon.ico HTTP/1.1" 200 23462
+0:0:0:0:0:0:0:1 - - [16/Jun/2024:15:10:22 +0700] "GET /new-jdbc/trang-chu;jsessionid=D1322C5C540EB7ECBF7BDB86B3B13543 HTTP/1.1" 200 10225
